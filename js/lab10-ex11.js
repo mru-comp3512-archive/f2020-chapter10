@@ -47,7 +47,7 @@ document.addEventListener("DOMContentLoaded", function() {
                         <div class="color-box" data-color-num="5" style="background-color:${scheme.color5}"></div>
                     </div>
                     <div class="actions">
-                        <a href="lab10-ex05-tester.html?id=${index}">Test Color Scheme</a>
+                        <a href="lab10-ex11-tester.html?id=${index}">Test Color Scheme</a>
                     </div>        
                 </section>`;      
             return template;

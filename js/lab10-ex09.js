@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function() {
    document.querySelector('#mistakeButton').addEventListener('click', () => {
       simplePromise('mistake.jpg');
    });      
-   document.querySelector('#completeButton').addEventListener('click', () => {
+   document.querySelector('#chainedButton').addEventListener('click', () => {
       chainedPromises('cats.jpg');
    }); 
    document.querySelector('#simultaneousButton').addEventListener('click', () => {
